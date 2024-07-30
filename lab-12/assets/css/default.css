@@ -1,0 +1,89 @@
+/* common selector start */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face{
+	src: url(../fonts/source-sans-pro/SourceSansPro-Regular.ttf);
+	font-family: SourceSansProR;
+}
+
+body{
+	margin: 0px;
+}
+.container-fluid{
+	width: 100%;
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+.container{
+	width: 75%;
+	height: 100%;
+	margin: 0px auto;
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+.border{
+	border: 1px solid teal;
+	box-sizing: border-box;
+}
+.float-start{
+	float: left;
+	height: 100%;
+}
+.w-25{
+	width: 25%;
+}
+.w-50{
+	width: 50%;
+}
+.w-75{
+	width: 75%;
+}
+.w-100{
+	width: 100%;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+/* common selector end */
+/* header section start */
+header{
+	height: 500px;
+}
+/* header-content start */
+.header-content{
+	background: #E8F3EC;
+	padding: 50px 40px;
+}
+.header-content h1{
+	font-family: "Playfair Display", serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #212529;
+	line-height: 1.3;
+}
+.header-content p{
+	font-family: SourceSansProR;
+	font-size: 16px;
+	font-weight: 400;
+	color: #212529;
+	line-height: 1.5;
+}
+.header-content a{
+	font-family: SourceSansProR;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	background: #101214;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 6px;
+	display: inline-block;
+}
+/* header-content end */
+/* header-banner start */
+.header-banner{
+	
+}
+/* header-banner end */
+/* header section end */

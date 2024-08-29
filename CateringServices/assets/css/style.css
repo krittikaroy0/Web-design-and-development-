@@ -1,0 +1,21 @@
+:root{
+    --primary-color: #E31D2A;
+    --secondary-color: #FDFAFA;
+    --light-color: #FEFBFC;
+    --dark-color: #040404;
+}
+.container{
+    min-width: 360px;
+}
+.nav-link{
+    margin: 0px 10px;
+    padding: 10px 20px;
+    &:hover{
+        color: var(--light-color);
+        background: var(--primary-color);
+    }
+    &.active{
+        color: var(--light-color);
+        background: var(--primary-color);
+    }
+}
